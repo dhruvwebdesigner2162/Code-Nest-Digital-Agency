@@ -1,0 +1,66 @@
+.banner {
+    background-image: url(../images/banner\ background\ image.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-btn {
+    background-color: rgba(98, 98, 255, 0.411);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* transition: 0.5ms; */
+}
+
+.banner-btn:hover {
+    background-color: rgba(98, 98, 255, 0.644);
+}
+
+.syp-btn,
+.vow-btn {
+    background-color: white;
+    color: #1D4ED8;
+    border: transparent;
+    font-weight: bold;
+    padding-inline: 20px;
+    padding-block: 7px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.vow-btn {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.vow-btn:hover {
+    background-color: white;
+    color: #1D4ED8;
+}
+
+.text-blue {
+    color: #1D4ED8;
+}
+
+.banner-box {
+    background-color: #4277E9;
+    backdrop-filter: blur(50px);
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgba(245, 245, 245, 0.226);
+}
+
+.top-box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    background-color: #1D4ED8;
+    border-radius: 10px;
+}
