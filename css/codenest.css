@@ -99,3 +99,22 @@
         margin-bottom: 17px !important;
     }
 }
+
+.label {
+    background-color: #1D4ED8;
+    border-radius: 7px;
+}
+
+.offer-section {
+    background-color: #F8FAFC;
+}
+
+.card-hover {
+    border: 1px solid lightgray;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.card-hover:hover {
+    border: 1px solid #1D4ED8;
+}
