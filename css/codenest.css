@@ -118,3 +118,16 @@
 .card-hover:hover {
     border: 1px solid #1D4ED8;
 }
+
+@media (max-width: 575px) {
+    .media-banfits {
+        display: block !important;
+        text-align: center;
+    }
+
+    .media-icon {
+        /* border: 1px solid red; */
+        margin-left: 43%;
+        width: 20% !important;
+    }
+}
