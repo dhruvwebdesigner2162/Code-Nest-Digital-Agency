@@ -127,7 +127,26 @@
 
     .media-icon {
         /* border: 1px solid red; */
-        margin-left: 43%;
-        width: 20% !important;
+        /* margin-left: 43%; */
+        width: 100% !important;
+        display: flex;
+        justify-content: center !important;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .icon-media {
+        width: 25% !important;
+    }
+
+    .banifits-1,
+    .banifits-2,
+    .banifits-3,
+    .banifits-4 {
+        border: 1px dashed lightgray;
+        border-radius: 15px;
+        padding: 10px;
+        margin-block: 25px;
+        box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     }
 }
