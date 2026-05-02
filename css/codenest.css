@@ -119,10 +119,22 @@
     border: 1px solid #1D4ED8;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 991px) {
     .media-banfits {
         display: block !important;
         text-align: center;
+    }
+
+    .media-flex-banifits {
+        display: block;
+        /* border: 1px solid red !important; */
+    }
+
+    .media-flex-banifits .col-lg-6 .banifits .banifits-1,
+    .media-flex-banifits .col-lg-6 .banifits .banifits-2,
+    .media-flex-banifits .col-lg-6 .banifits .banifits-3,
+    .media-flex-banifits .col-lg-6 .banifits .banifits-4 {
+        /* border: 1px solid red !important; */
     }
 
     .media-icon {
@@ -143,10 +155,20 @@
     .banifits-2,
     .banifits-3,
     .banifits-4 {
-        border: 1px dashed lightgray;
+        border: 1px solid lightgray;
         border-radius: 15px;
         padding: 10px;
         margin-block: 25px;
         box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
     }
+}
+
+.custom-banifits-icon-size {
+    /* font-size: 200px !important; */
+    height: 50px;
+    width: 50px;
+}
+
+.custom-radius {
+    border-radius: 10px;
 }
