@@ -172,3 +172,27 @@
 .custom-radius {
     border-radius: 10px;
 }
+
+.project-section {
+    background-color: #F8FAFC !important;
+}
+
+.custom-large-shadow {
+    box-shadow: 0 1rem 3rem rgba(133, 163, 184, 0.37) !important;
+}
+
+.custom-card-radius {
+    border-radius: 15px;
+}
+
+.btn-custom-bg-color {
+    background-color: #4277E9;
+    color: white;
+    padding-inline: 20px;
+    font-weight: 600;
+}
+
+.btn-custom-bg-color:hover {
+    background-color: #1D4ED8;
+    color: white;
+}
