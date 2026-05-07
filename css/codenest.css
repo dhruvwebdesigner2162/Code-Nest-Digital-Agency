@@ -196,3 +196,22 @@
     background-color: #1D4ED8;
     color: white;
 }
+
+.process-icon {
+    height: 75px;
+    width: 75px;
+    background-color: #2D69E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.process-is {
+    height: 30px;
+    width: 30px;
+}
+
+.pricing-section {
+    background-color: #F8FAFC;
+}
