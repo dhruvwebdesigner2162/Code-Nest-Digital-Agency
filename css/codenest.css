@@ -238,3 +238,12 @@
     justify-content: center;
     align-items: center;
 }
+
+form {
+    background-color: white;
+    padding-inline: 35px;
+    padding-block: 15px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 15px;
+    box-shadow: 0 1rem 3rem rgba(133, 163, 184, 0.37) !important;
+}
