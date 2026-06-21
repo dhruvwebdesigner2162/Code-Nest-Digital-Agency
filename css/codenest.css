@@ -247,3 +247,28 @@ form {
     border-radius: 15px;
     box-shadow: 0 1rem 3rem rgba(133, 163, 184, 0.37) !important;
 }
+
+.footer-section {
+    background-color: #0F172A;
+}
+
+.footer-text-cc {
+    color: #B7B9C0;
+    font-weight: 600;
+}
+
+.fi-1 {
+    background-color: #272F40;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.fi-1:hover {
+    background-color: #3F4555;
+}
